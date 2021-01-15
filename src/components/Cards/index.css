@@ -1,0 +1,58 @@
+.poster {
+  max-width: 180px;
+  max-height: 180px;
+  border-radius: 10px;
+  border: white 2px solid;
+}
+
+.cards {
+  width: 30%;
+  border: blueviolet 3px solid;
+  box-shadow: blueviolet 2px 2px;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.description {
+  flex-direction: column;
+  color: #210030;
+}
+
+.search {
+  width: 85%;
+  height: 42px;
+  border-radius: 10px;
+  text-align: center;
+  border: 3px black solid;
+  box-shadow: black 2px 2px;
+}
+
+.border-input {
+  background-color: blueviolet;
+  border-bottom-left-radius: 80px 80px;
+  border-bottom-right-radius: 80px 80px;
+}
+
+.cards:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  background-color: #d1eeee;
+}
+
+@media (max-width: 1190px) {
+  .cards {
+    width: 20%;
+  }
+}
+
+@media (max-width: 770px) {
+  .poster {
+    max-width: 120px;
+    max-height: 120px;
+    border: none;
+  }
+  .total {
+    margin-left: 80px;
+  }
+}
