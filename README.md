@@ -1,3 +1,5 @@
+![](movieapp.gif)
+
 # The Movies App
 
 This web app is using [the movie database](https://www.themoviedb.org/) to diplay movies.
@@ -26,6 +28,4 @@ Just run `yarn` in your console to install all dependencies and `yarn start` to 
 
 - [Bootstrap](https://getbootstrap.com/)
 
-## Netlify link
-
-Here you can see and try this project :
+![](movie.gif)
